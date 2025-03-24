@@ -1,6 +1,9 @@
+
 h1 {
-  color: #ffff;
+  color: #fdfdfd;
   font-size: 100px;
+  margin: -19px;
+  
 
 }
 
@@ -8,7 +11,36 @@ body {
  background-color: #585858;
  font-family: "Bodoni Moda", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
+
+footer, a {
+  color:#ffff;
+  background-color:#404040;
 }
+ 
+ #container-clock{
+ 
+
+ }
+
+ #form {
+  display: flex;
+  justify-content: center; 
+}
+  img {
+    border-radius: 20px;
+    border: solid #D9D9D9 8px;
+    display: block;
+    margin-left: auto;
+  }
+
+  #containerBox {
+    background-color:#40404080;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto 100px;
+    padding: 100px auto;
+  }
