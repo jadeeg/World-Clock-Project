@@ -4,11 +4,13 @@ h1 {
   font-size: 108px;
   margin: -8px;
   text-shadow:6px 2px #404040;
+ 
 
 }
  h1 strong {
   color:#ccba91;
  }
+
 body {
  background-color: #585858;
  font-family: "Bodoni Moda", serif;
@@ -29,15 +31,15 @@ body {
       font-size: 2rem;
       font-weight: bold;
       font-size: 108px;
-      left:-44px;
+      left:-60px;
       
 
  }
 footer, a {
   color:#ffff;
   background-color:#404040;
-
   margin-bottom: -30px;
+   height: 30px;
   
 }
  
@@ -72,9 +74,13 @@ footer, a {
     font-family: "Slabo 27px", serif;
   font-weight: 400;
   font-style: normal;
+  
 }
 
-  
+#select:hover {
+   background-color:#f5e0ae80;
+   cursor: pointer;
+}
   #info{
     font-size: 71px;
     color:rgb(255, 255, 255);
