@@ -36,7 +36,7 @@ body {
 footer, a {
   color:#ffff;
   background-color:#404040;
-  
+
   margin-bottom: -30px;
   
 }
@@ -75,6 +75,15 @@ footer, a {
 }
 
   
-  .cointainer {
-    
+  #info{
+    font-size: 71px;
+    color:rgb(255, 255, 255);
+     font-display: center;
+      font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: normal; }
+
+  #city{
+    color:#ccba91;
+    text-align: center;
   }

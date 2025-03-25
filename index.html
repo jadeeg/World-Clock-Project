@@ -4,31 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="src/styles.css"> 
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Slabo+27px&display=swap" rel="stylesheet">
-    <title> World Clock</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Radley:ital@0;1&family=Slabo+27px&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data.min.js"></script>   
+
+
+<title> World Clock</title>
 </head>
 <body>
     
     <h1> World <strong>Clock </strong> </h1>
     <h2>Live </h2>
+    
 <div id="containerBox">
-    <div class="content">
+    
+   
+    <div id="content">
+        
+    
         <select id="select">
-            <option value=" "> Select a city </option>
+            <option value="userTime"> Select a city </option>
             <option value="currentCity"> My current Location </option>
-            <option value="Sydney"> Sydney </option>
-            <option value="New York"> New York</option>
-            <option value="Auckland"> Auckland </option>
+            <option value="Australia/Sydney"> Sydney </option>
+            <option value="America/New_York"> New York</option>
+            <option value="Pacific/Auckland"> Auckland </option>
+            <option value="America/Bogota"> Bogotá </option>
+            <option value="America/Sao_Paulo">São Paulo </option>
+          
+
         </select>
+        
+    <div id="info"></div>
     </div>
+   
 
     <img src="https://i.postimg.cc/1tYQf9qC/clockk.jpg">
-</div>
+    
 
-   
+</div>
+    <div id="city"></div>
+    <div id="info"></div>
+  
    
 
 
@@ -43,7 +62,7 @@
      
       </footer>
  </footer>
-    <script src="index.js"></script>
+    <script src="src/index.js"></script>
 
 </body>
 </html>
