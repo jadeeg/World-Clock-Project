@@ -1,5 +1,3 @@
-import "animate.css";
-
 function time() {
   let citytime = document.getElementById("select").value;
   if (citytime) {
@@ -14,7 +12,7 @@ function time() {
     info.innerHTML = `${date} ${timenow}  <div id= "city" > ${selectCitytime} </div>`;
   } else if (citytime === "userTime") {
     let info = document.getElementById("info");
-    info.innerHTML = new Date().toString();
+    info.innerHTML = moment().tz.guess();
   }
 }
 
